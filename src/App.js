@@ -4,9 +4,6 @@ import {Login,Logout} from "./routes"
 import { Switch, Redirect, Route } from "react-router";
 import {PrivateRoute} from "./PrivateRoute"
 
-import { WithLayout } from "./WithLayout.js";
-import { MainLayout } from "./MainLayout.js";
-
 function App() {
   return (
     <Switch>
